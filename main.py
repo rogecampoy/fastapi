@@ -4,7 +4,7 @@ import boto3
 import hashlib
 from mangum import Mangum
 
-app = FastAPI(title='project-users')
+app = FastAPI()
 
 class User (BaseModel):
     username: str
